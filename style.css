@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.top-header {
+    background-color: #54b0c5;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Main navigation bar styling */
+.main-nav {
+    background-color: #0a131e; /* Darker blue color for main navigation */
+    padding: 10px 20px;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: center; /* Center the entire navbar */
+    align-items: center;
+    width: 100%;
+}
+
+/* Navbar unordered list styling */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center the list items */
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* Navbar list item styling */
+.navbar ul li {
+    margin: 0 15px; /* Space between items */
+    text-align: center; /* Center text within each list item */
+}
+
+/* Navbar link styling */
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #0073e6;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide img {
+    width: 50%;
+    height: auto;
+}
+
+.centered-container {
+    max-width: 800px;
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* ... existing styles ... */
+/* Dropdown menu styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0a0a36;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* ... remaining styles ... */
+
+
+
+/* ... existing styles ... */
+
+.status-ongoing {
+    background-color: #ffff99;
+}
+
+.status-completed {
+    background-color: #99ff99;
+}
+
+.status-evaluation {
+    background-color: #ff9999;
+}
+
+/* ... remaining styles ... */
